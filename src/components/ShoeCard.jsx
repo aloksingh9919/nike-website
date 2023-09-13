@@ -1,11 +1,8 @@
 const ShoeCard = ({imgURL,changeBigShoeImage,bigShoeImage}) => {
 const handleClick=()=>{
-  setInterval(() => {
-    if(bigShoeImage!== imgURL.bigShoe){
-      changeBigShoeImage(imgURL.bigShoe)
-  }
-  }, 3000);
-      
+        if(bigShoeImage!== imgURL.bigShoe){
+            changeBigShoeImage(imgURL.bigShoe)
+        }
         // console.log(handleClick)
     
 }
